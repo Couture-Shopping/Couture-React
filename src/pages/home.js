@@ -25,7 +25,7 @@ class Home extends React.Component {
                     <nav class="main-nav">
                          {/* <!-- ***** Logo Start ***** --> */}
                         <a href="index.html" class="logo">
-                            <img src="public/public/assets/images/logo.png" />
+                            <img src="public/assets/images/logo.png" />
                         </a>
                         {/* <!-- ***** Logo End ***** --> */}
                         {/* <!-- ***** Menu Start ***** --> */}
@@ -204,7 +204,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120</span>
+                                    <span>$120.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -227,7 +227,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Air Force 1 X</h4>
-                                    <span>$90</span>
+                                    <span>$90.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -250,7 +250,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Love Nana ‘20</h4>
-                                    <span>$150</span>
+                                    <span>$150.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -273,7 +273,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120</span>
+                                    <span>$120.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -321,7 +321,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>New Green Jacket</h4>
-                                    <span>$75</span>
+                                    <span>$75.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -344,7 +344,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Dress</h4>
-                                    <span>$45</span>
+                                    <span>$45.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -367,7 +367,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Spring Collection</h4>
-                                    <span>$130</span>
+                                    <span>$130.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -390,7 +390,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120</span>
+                                    <span>$120.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -438,7 +438,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>School Collection</h4>
-                                    <span>$80</span>
+                                    <span>$80.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -461,7 +461,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Summer Cap</h4>
-                                    <span>$12</span>
+                                    <span>$12.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -484,7 +484,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Kid</h4>
-                                    <span>$30</span>
+                                    <span>$30.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -507,7 +507,7 @@ class Home extends React.Component {
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120</span>
+                                    <span>$120.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
