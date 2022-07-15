@@ -25,7 +25,7 @@ class Home extends React.Component {
                     <nav class="main-nav">
                          {/* <!-- ***** Logo Start ***** --> */}
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png" />
+                            <img src="public/public/assets/images/logo.png" />
                         </a>
                         {/* <!-- ***** Logo End ***** --> */}
                         {/* <!-- ***** Menu Start ***** --> */}
@@ -79,7 +79,7 @@ class Home extends React.Component {
                                     <a href="#">Purchase Now!</a>
                                 </div>
                             </div>
-                            <img src="assets/images/left-banner-image.jpg" alt="" />
+                            <img src="public/assets/images/left-banner-image.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-01.jpg" />
+                                        <img src="public/assets/images/baner-right-image-01.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-02.jpg" />
+                                        <img src="public/assets/images/baner-right-image-02.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-03.jpg" />
+                                        <img src="public/assets/images/baner-right-image-03.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-04.jpg" />
+                                        <img src="public/assets/images/baner-right-image-04.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -200,11 +200,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="" />
+                                    <img src="public/assets/images/men-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <span>$120</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -223,11 +223,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-02.jpg" alt="" />
+                                    <img src="public/assets/images/men-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Air Force 1 X</h4>
-                                    <span>$90.00</span>
+                                    <span>$90</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -246,11 +246,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-03.jpg" alt="" />
+                                    <img src="public/assets/images/men-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Love Nana ‘20</h4>
-                                    <span>$150.00</span>
+                                    <span>$150</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -269,11 +269,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="" />
+                                    <img src="public/assets/images/men-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <span>$120</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -317,11 +317,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="" />
+                                    <img src="public/assets/images/women-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>New Green Jacket</h4>
-                                    <span>$75.00</span>
+                                    <span>$75</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -340,11 +340,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-02.jpg" alt="" />
+                                    <img src="public/assets/images/women-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Dress</h4>
-                                    <span>$45.00</span>
+                                    <span>$45</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -363,11 +363,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-03.jpg" alt="" />
+                                    <img src="public/assets/images/women-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Spring Collection</h4>
-                                    <span>$130.00</span>
+                                    <span>$130</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -386,11 +386,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="" />
+                                    <img src="public/assets/images/women-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <span>$120</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -434,11 +434,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="" />
+                                    <img src="public/assets/images/kid-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>School Collection</h4>
-                                    <span>$80.00</span>
+                                    <span>$80</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -457,11 +457,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-02.jpg" alt="" />
+                                    <img src="public/assets/images/kid-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Summer Cap</h4>
-                                    <span>$12.00</span>
+                                    <span>$12</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -480,11 +480,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-03.jpg" alt="" />
+                                    <img src="public/assets/images/kid-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Kid</h4>
-                                    <span>$30.00</span>
+                                    <span>$30</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -503,11 +503,11 @@ class Home extends React.Component {
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="" />
+                                    <img src="public/assets/images/kid-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <span>$120</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -554,12 +554,12 @@ class Home extends React.Component {
                             </div>
                             <div class="col-lg-6">
                                 <div class="first-image">
-                                    <img src="assets/images/explore-image-01.jpg" alt="" />
+                                    <img src="public/assets/images/explore-image-01.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="second-image">
-                                    <img src="assets/images/explore-image-02.jpg" alt="" />
+                                    <img src="public/assets/images/explore-image-02.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -598,7 +598,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-01.jpg" alt="" />
+                        <img src="public/assets/images/instagram-01.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -609,7 +609,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-02.jpg" alt="" />
+                        <img src="public/assets/images/instagram-02.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -620,7 +620,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-03.jpg" alt="" />
+                        <img src="public/assets/images/instagram-03.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -631,7 +631,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-04.jpg" alt="" />
+                        <img src="public/assets/images/instagram-04.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -642,7 +642,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-05.jpg" alt="" />
+                        <img src="public/assets/images/instagram-05.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -653,7 +653,7 @@ class Home extends React.Component {
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-06.jpg" alt="" />
+                        <img src="public/assets/images/instagram-06.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -720,7 +720,7 @@ class Home extends React.Component {
                 <div class="col-lg-3">
                     <div class="first-item">
                         <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo" />
+                            <img src="public/assets/images/white-logo.png" alt="hexashop ecommerce templatemo" />
                         </div>
                         <ul>
                             <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
