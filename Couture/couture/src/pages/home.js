@@ -1,61 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <title>Couture Shopping</title>
+import React from 'react';
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-
-    <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
-    </head>
+class Home extends React.Component {
+    render(){
+        return(
+        <div>
     
-    <body>
-    
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+{/*     <!-- ***** Preloader Start ***** -->
+ */}    <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </div>  
-    <!-- ***** Preloader End ***** -->
+{/*     <!-- ***** Preloader End ***** -->
+ */}    
     
-    
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+{/*     <!-- ***** Header Area Start ***** -->
+ */}    <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
+                         {/* <!-- ***** Logo Start ***** --> */}
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png">
+                            <img src="assets/images/logo.png" />
                         </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
+                        {/* <!-- ***** Logo End ***** --> */}
+                        {/* <!-- ***** Menu Start ***** --> */}
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#men">Men's</a></li>
@@ -84,15 +57,15 @@ https://templatemo.com/tm-571-hexashop
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-                        <!-- ***** Menu End ***** -->
+                        {/* <!-- ***** Menu End ***** --> */}
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    {/* <!-- ***** Header Area End ***** --> */}
 
-    <!-- ***** Main Banner Area Start ***** -->
+    {/* <!-- ***** Main Banner Area Start ***** --> */}
     <div class="main-banner" id="top">
         <div class="container-fluid">
             <div class="row">
@@ -106,7 +79,7 @@ https://templatemo.com/tm-571-hexashop
                                     <a href="#">Purchase Now!</a>
                                 </div>
                             </div>
-                            <img src="assets/images/left-banner-image.jpg" alt="">
+                            <img src="assets/images/left-banner-image.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -129,7 +102,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-01.jpg">
+                                        <img src="assets/images/baner-right-image-01.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +122,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-02.jpg">
+                                        <img src="assets/images/baner-right-image-02.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +142,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-03.jpg">
+                                        <img src="assets/images/baner-right-image-03.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +162,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-04.jpg">
+                                        <img src="assets/images/baner-right-image-04.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -199,9 +172,9 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+    {/* <!-- ***** Main Banner Area End ***** --> */}
 
-    <!-- ***** Men Area Starts ***** -->
+    {/* <!-- ***** Men Area Starts ***** --> */}
     <section class="section" id="men">
         <div class="container">
             <div class="row">
@@ -227,7 +200,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
+                                    <img src="assets/images/men-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -250,7 +223,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-02.jpg" alt="">
+                                    <img src="assets/images/men-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Air Force 1 X</h4>
@@ -273,7 +246,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-03.jpg" alt="">
+                                    <img src="assets/images/men-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Love Nana ‘20</h4>
@@ -296,7 +269,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
+                                    <img src="assets/images/men-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -316,9 +289,9 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
-    <!-- ***** Men Area Ends ***** -->
+    {/* <!-- ***** Men Area Ends ***** --> */}
 
-    <!-- ***** Women Area Starts ***** -->
+    {/* <!-- ***** Women Area Starts ***** --> */}
     <section class="section" id="women">
         <div class="container">
             <div class="row">
@@ -344,7 +317,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
+                                    <img src="assets/images/women-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>New Green Jacket</h4>
@@ -367,7 +340,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-02.jpg" alt="">
+                                    <img src="assets/images/women-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Dress</h4>
@@ -390,7 +363,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-03.jpg" alt="">
+                                    <img src="assets/images/women-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Spring Collection</h4>
@@ -413,7 +386,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
+                                    <img src="assets/images/women-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -433,9 +406,9 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
-    <!-- ***** Women Area Ends ***** -->
+    {/* <!-- ***** Women Area Ends ***** --> */}
 
-    <!-- ***** Kids Area Starts ***** -->
+    {/* <!-- ***** Kids Area Starts ***** --> */}
     <section class="section" id="kids">
         <div class="container">
             <div class="row">
@@ -461,7 +434,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
+                                    <img src="assets/images/kid-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>School Collection</h4>
@@ -484,7 +457,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-02.jpg" alt="">
+                                    <img src="assets/images/kid-02.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Summer Cap</h4>
@@ -507,7 +480,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-03.jpg" alt="">
+                                    <img src="assets/images/kid-03.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Kid</h4>
@@ -530,7 +503,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
+                                    <img src="assets/images/kid-01.jpg" alt="" />
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -550,9 +523,9 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
-    <!-- ***** Kids Area Ends ***** -->
+    {/* <!-- ***** Kids Area Ends ***** --> */}
 
-    <!-- ***** Explore Area Starts ***** -->
+    {/* <!-- ***** Explore Area Starts ***** --> */}
     <section class="section" id="explore">
         <div class="container">
             <div class="row">
@@ -581,12 +554,12 @@ https://templatemo.com/tm-571-hexashop
                             </div>
                             <div class="col-lg-6">
                                 <div class="first-image">
-                                    <img src="assets/images/explore-image-01.jpg" alt="">
+                                    <img src="assets/images/explore-image-01.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="second-image">
-                                    <img src="assets/images/explore-image-02.jpg" alt="">
+                                    <img src="assets/images/explore-image-02.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -601,9 +574,9 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
-    <!-- ***** Explore Area Ends ***** -->
+{/*     <!-- ***** Explore Area Ends ***** -->
 
-    <!-- ***** Social Area Starts ***** -->
+    <!-- ***** Social Area Starts ***** --> */}
     <section class="section" id="social">
         <div class="container">
             <div class="row">
@@ -625,7 +598,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-01.jpg" alt="">
+                        <img src="assets/images/instagram-01.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -636,7 +609,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-02.jpg" alt="">
+                        <img src="assets/images/instagram-02.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -647,7 +620,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-03.jpg" alt="">
+                        <img src="assets/images/instagram-03.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -658,7 +631,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-04.jpg" alt="">
+                        <img src="assets/images/instagram-04.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -669,7 +642,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-05.jpg" alt="">
+                        <img src="assets/images/instagram-05.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-2">
@@ -680,15 +653,15 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-06.jpg" alt="">
+                        <img src="assets/images/instagram-06.jpg" alt="" />
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Social Area Ends ***** -->
+    {/* <!-- ***** Social Area Ends ***** --> */}
 
-    <!-- ***** Subscribe Area Starts ***** -->
+    {/* <!-- ***** Subscribe Area Starts ***** --> */}
     <div class="subscribe">
         <div class="container">
             <div class="row">
@@ -701,12 +674,12 @@ https://templatemo.com/tm-571-hexashop
                         <div class="row">
                           <div class="col-lg-5">
                             <fieldset>
-                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                              <input name="name" type="text" id="name" placeholder="Your Name" required="" />
                             </fieldset>
                           </div>
                           <div class="col-lg-5">
                             <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="" />
                             </fieldset>
                           </div>
                           <div class="col-lg-2">
@@ -721,16 +694,16 @@ https://templatemo.com/tm-571-hexashop
                     <div class="row">
                         <div class="col-6">
                             <ul>
-                                <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
-                                <li>Phone:<br><span>010-020-0340</span></li>
-                                <li>Office Location:<br><span>North Miami Beach</span></li>
+                                <li>Store Location:<br /><span>Sunny Isles Beach, FL 33160, United States</span></li>
+                                <li>Phone:<br /><span>010-020-0340</span></li>
+                                <li>Office Location:<br /><span>North Miami Beach</span></li>
                             </ul>
                         </div>
                         <div class="col-6">
                             <ul>
-                                <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
-                                <li>Email:<br><span>info@company.com</span></li>
-                                <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                                <li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
+                                <li>Email:<br /><span>info@company.com</span></li>
+                                <li>Social Media:<br /><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -738,16 +711,16 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </div>
-    <!-- ***** Subscribe Area Ends ***** -->
+    {/* <!-- ***** Subscribe Area Ends ***** --> */}
     
-    <!-- ***** Footer Start ***** -->
+    {/* <!-- ***** Footer Start ***** --> */}
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="first-item">
                         <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo" />
                         </div>
                         <ul>
                             <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
@@ -784,11 +757,11 @@ https://templatemo.com/tm-571-hexashop
                 </div>
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
+                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.
                         
-                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+                        <br/>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
 
-                        <br>Distributed By: <a href="https://themewagon.com" target="_blank" title="free & premium responsive templates">ThemeWagon</a></p>
+                        <br/>Distributed By: <a href="https://themewagon.com" target="_blank" title="free & premium responsive templates">ThemeWagon</a></p>
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -802,14 +775,14 @@ https://templatemo.com/tm-571-hexashop
     </footer>
     
 
-    <!-- jQuery -->
+    {/* <!-- jQuery --> */}
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-    <!-- Bootstrap -->
+    {/* <!-- Bootstrap --> */}
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Plugins -->
+    {/* <!-- Plugins --> */}
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/accordions.js"></script>
     <script src="assets/js/datepicker.js"></script>
@@ -821,26 +794,16 @@ https://templatemo.com/tm-571-hexashop
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
     
-    <!-- Global Init -->
+    {/* <!-- Global Init --> */}
     <script src="assets/js/custom.js"></script>
 
-    <script>
-
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
+    <script src='../helper.js' type='text/javascript'>
 
     </script>
 
-  </body>
-</html>
+        </div>
+        )
+    }
+}
+
+export default Home;
