@@ -35,7 +35,7 @@ class Home extends React.Component {
                             <li class="scroll-to-section"><a href="#women">Women's</a></li>
                             <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
                             <li class="submenu">
-                                <a href="javascript:;">Pages</a>
+                                <a href="#top">Pages</a>
                                 <ul>
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="products.html">Products</a></li>
@@ -44,11 +44,11 @@ class Home extends React.Component {
                                 </ul>
                             </li>
                             <li class="submenu">
-                                <a href="javascript:;">Features</a>
+                                <a href="#top">Features</a>
                                 <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
+                                    <li><a href="#top">Features Page 1</a></li>
+                                    <li><a href="#top">Features Page 2</a></li>
+                                    <li><a href="#top">Features Page 3</a></li>
                                     <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
                                 </ul>
                             </li>
@@ -76,7 +76,7 @@ class Home extends React.Component {
                                 <h4>We Are Hexashop</h4>
                                 <span>Awesome, clean &amp; creative HTML5 Template</span>
                                 <div class="main-border-button">
-                                    <a href="#">Purchase Now!</a>
+                                    <a href="#top">Purchase Now!</a>
                                 </div>
                             </div>
                             <img src="../assets/images/left-banner-image.jpg" alt="" />
@@ -98,7 +98,7 @@ class Home extends React.Component {
                                                 <h4>Women</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a href="#top">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -118,7 +118,7 @@ class Home extends React.Component {
                                                 <h4>Men</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a href="#top">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@ class Home extends React.Component {
                                                 <h4>Kids</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a href="#top">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -158,7 +158,7 @@ class Home extends React.Component {
                                                 <h4>Accessories</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a href="#top">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -703,7 +703,7 @@ class Home extends React.Component {
                             <ul>
                                 <li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
                                 <li>Email:<br /><span>info@company.com</span></li>
-                                <li>Social Media:<br /><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                                <li>Social Media:<br /><span><a href="#top">Facebook</a>, <a href="#top">Instagram</a>, <a href="#top">Behance</a>, <a href="#top">Linkedin</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -723,36 +723,36 @@ class Home extends React.Component {
                             <img src="../assets/images/white-logo.png" alt="hexashop ecommerce templatemo" />
                         </div>
                         <ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
+                            <li><a href="#top">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
+                            <li><a href="#top">hexashop@company.com</a></li>
+                            <li><a href="#top">010-020-0340</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <h4>Shopping &amp; Categories</h4>
                     <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
+                        <li><a href="#top">Men’s Shopping</a></li>
+                        <li><a href="#top">Women’s Shopping</a></li>
+                        <li><a href="#top">Kid's Shopping</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#top">Homepage</a></li>
+                        <li><a href="#top">About Us</a></li>
+                        <li><a href="#top">Help</a></li>
+                        <li><a href="#top">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
                     <h4>Help &amp; Information</h4>
                     <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
+                        <li><a href="#top">Help</a></li>
+                        <li><a href="#top">FAQ's</a></li>
+                        <li><a href="#top">Shipping</a></li>
+                        <li><a href="#top">Tracking ID</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-12">
@@ -763,10 +763,10 @@ class Home extends React.Component {
 
                         <br/>Distributed By: <a href="https://themewagon.com" target="_blank" title="free & premium responsive templates">ThemeWagon</a></p>
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#top"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#top"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#top"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#top"><i class="fa fa-behance"></i></a></li>
                         </ul>
                     </div>
                 </div>
