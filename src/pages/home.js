@@ -49,7 +49,7 @@ class Home extends React.Component {
                                     <li><a href="#top">Features Page 1</a></li>
                                     <li><a href="#top">Features Page 2</a></li>
                                     <li><a href="#top">Features Page 3</a></li>
-                                    <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
+                                    <li><a href="https://templatemo.com/page/4" target="_blank" rel="noopener noreferrer">Template Page 4</a></li>
                                 </ul>
                             </li>
                             <li class="scroll-to-section"><a href="#explore">Explore</a></li>
@@ -534,7 +534,7 @@ class Home extends React.Component {
                             <i class="fa fa-quote-left"></i><p>You are not allowed to redistribute this template ZIP file on any other website.</p>
                         </div>
                         <p>There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.</p>
-                        <p>If this template is beneficial for your website or business, please kindly <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
+                        <p>If this template is beneficial for your website or business, please kindly <a href="https://paypal.me/templatemo" target="_blank" rel="noopener noreferrer">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
                         <div class="main-border-button">
                             <a href="products.html">Discover More</a>
                         </div>
