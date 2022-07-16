@@ -34,24 +34,6 @@ class Home extends React.Component {
                             <li class="scroll-to-section"><a href="#men">Men's</a></li>
                             <li class="scroll-to-section"><a href="#women">Women's</a></li>
                             <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
-                            <li class="submenu">
-                                <a href="#top">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="#top">Features</a>
-                                <ul>
-                                    <li><a href="#top">Features Page 1</a></li>
-                                    <li><a href="#top">Features Page 2</a></li>
-                                    <li><a href="#top">Features Page 3</a></li>
-                                    <li><a href="https://templatemo.com/page/4" target="_blank" rel="noopener noreferrer">Template Page 4</a></li>
-                                </ul>
-                            </li>
                             <li class="scroll-to-section"><a href="#explore">Explore</a></li>
                         </ul>        
                         {/* <!-- ***** Menu End ***** --> */}
@@ -177,113 +159,156 @@ class Home extends React.Component {
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Men's Latest</h2>
+                        <h2>Men's Top Products</h2>
                         <span>Details to details is what makes Hexashop different from the other themes.</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="men-item-carousel">
-                        <div class="owl-men-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/men-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/men-02.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Air Force 1 X</h4>
-                                    <span>$90.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/men-03.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Love Nana ‘20</h4>
-                                    <span>$150.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/men-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/men-01.jpg" alt="" />
                 </div>
+                <div class="down-content">
+                  <h4>Classic Spring</h4>
+                  <span>$120.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/men-02.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Air Force 1 X</h4>
+                  <span>$90.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/men-03.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Love Nana ‘20</h4>
+                  <span>$150.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
     {/* <!-- ***** Men Area Ends ***** --> */}
@@ -294,113 +319,156 @@ class Home extends React.Component {
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Women's Latest</h2>
+                        <h2>Women's Top Products</h2>
                         <span>Details to details is what makes Hexashop different from the other themes.</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="women-item-carousel">
-                        <div class="owl-women-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/women-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>New Green Jacket</h4>
-                                    <span>$75.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/women-02.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Dress</h4>
-                                    <span>$45.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/women-03.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Spring Collection</h4>
-                                    <span>$130.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/women-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/women-01.jpg" alt="" />
                 </div>
+                <div class="down-content">
+                  <h4>Classic Spring</h4>
+                  <span>$120.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/women-02.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Air Force 1 X</h4>
+                  <span>$90.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/women-03.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Love Nana ‘20</h4>
+                  <span>$150.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
     {/* <!-- ***** Women Area Ends ***** --> */}
@@ -411,114 +479,158 @@ class Home extends React.Component {
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Kid's Latest</h2>
+                        <h2>Kid's Top Products</h2>
                         <span>Details to details is what makes Hexashop different from the other themes.</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="kid-item-carousel">
-                        <div class="owl-kid-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/kid-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>School Collection</h4>
-                                    <span>$80.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/kid-02.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Summer Cap</h4>
-                                    <span>$12.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/kid-03.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Kid</h4>
-                                    <span>$30.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../assets/images/kid-01.jpg" alt="" />
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/kid-01.jpg" alt="" />
                 </div>
+                <div class="down-content">
+                  <h4>Classic Spring</h4>
+                  <span>$120.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/kid-02.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Air Force 1 X</h4>
+                  <span>$90.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="thumb">
+                  <div class="hover-content">
+                    <ul>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-eye" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-star" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single-product.html">
+                          <i class="fa fa-shopping-cart" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="../assets/images/kid-03.jpg" alt="" />
+                </div>
+                <div class="down-content">
+                  <h4>Love Nana ‘20</h4>
+                  <span>$150.00</span>
+                  <ul class="stars">
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                    <li>
+                      <i class="fa fa-star" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
     </section>
     {/* <!-- ***** Kids Area Ends ***** --> */}
 
@@ -546,7 +658,7 @@ class Home extends React.Component {
                             <div class="col-lg-6">
                                 <div class="leather">
                                     <h4>Leather Bags</h4>
-                                    <span>Latest Collection</span>
+                                    <span>Top Products Collection</span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -773,30 +885,28 @@ class Home extends React.Component {
     
 
     {/* <!-- jQuery --> */}
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="../assets/js/jquery-2.1.0.min.js" type="text/javascript"></script>
 
     {/* <!-- Bootstrap --> */}
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.js" type="text/javascript"></script>
+    <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
 
     {/* <!-- Plugins --> */}
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/accordions.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/slick.js"></script> 
-    <script src="assets/js/lightbox.js"></script> 
-    <script src="assets/js/isotope.js"></script> 
+    <script src="../assets/js/owl-carousel.js" type="text/javascript"></script>
+    <script src="../assets/js/accordions.js" type="text/javascript"></script>
+    <script src="../assets/js/datepicker.js" type="text/javascript"></script>
+    <script src="../assets/js/scrollreveal.min.js" type="text/javascript"></script>
+    <script src="../assets/js/waypoints.min.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="../assets/js/imgfix.min.js" type="text/javascript"></script> 
+    <script src="../assets/js/slick.js" type="text/javascript"></script> 
+    <script src="../assets/js/lightbox.js" type="text/javascript"></script> 
+    <script src="../assets/js/isotope.js" type="text/javascript"></script> 
     
     {/* <!-- Global Init --> */}
-    <script src="assets/js/custom.js"></script>
+    <script src="../assets/js/custom.js" type="text/javascript"></script>
 
-    <script src='../helper.js' type='text/javascript'>
-
-    </script>
+    <script src="../pages/helper.js" type="text/javascript"></script>
 
         </div>
         )

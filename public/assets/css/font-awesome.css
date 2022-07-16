@@ -197,6 +197,7 @@
 }
 .fa-star:before {
   content: "\f005";
+  color: white;
 }
 .fa-star-o:before {
   content: "\f006";
@@ -935,6 +936,7 @@
 }
 .fa-quote-left:before {
   content: "\f10d";
+  color: white;
 }
 .fa-quote-right:before {
   content: "\f10e";
