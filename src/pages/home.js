@@ -25,7 +25,7 @@ class Home extends React.Component {
                     <nav class="main-nav">
                          {/* <!-- ***** Logo Start ***** --> */}
                         <a href="index.html" class="logo">
-                            <img src="../assets/images/logo.png" />
+                            <img src="../assets/images/logo.png" alt="" />
                         </a>
                         {/* <!-- ***** Logo End ***** --> */}
                         {/* <!-- ***** Menu Start ***** --> */}
@@ -262,7 +262,6 @@ class Home extends React.Component {
                             </div>
                             <div class="item">
                                 <div class="thumb">
-                                    <div class="hover-content">
                                     <div class="hover-content">
                                         <ul>
                                             <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
