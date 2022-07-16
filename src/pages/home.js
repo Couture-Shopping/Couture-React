@@ -866,7 +866,7 @@ class Home extends React.Component {
                 </div>
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 Couter Shoppping
+                        <p>Copyright © 2022 Couter Shoppping</p>
                     </div>
                 </div>
             </div>
