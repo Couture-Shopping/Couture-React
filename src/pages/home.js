@@ -102,7 +102,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="../assets/images/baner-right-image-01.jpg" />
+                                        <img src="../assets/images/baner-right-image-01.jpg" alt=""  />
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="../assets/images/baner-right-image-02.jpg" />
+                                        <img src="../assets/images/baner-right-image-02.jpg" alt=""  />
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="../assets/images/baner-right-image-03.jpg" />
+                                        <img src="../assets/images/baner-right-image-03.jpg" alt=""  />
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ class Home extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="../assets/images/baner-right-image-04.jpg" />
+                                        <img src="../assets/images/baner-right-image-04.jpg" alt=""  />
                                     </div>
                                 </div>
                             </div>
@@ -262,6 +262,7 @@ class Home extends React.Component {
                             </div>
                             <div class="item">
                                 <div class="thumb">
+                                    <div class="hover-content">
                                     <div class="hover-content">
                                         <ul>
                                             <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
